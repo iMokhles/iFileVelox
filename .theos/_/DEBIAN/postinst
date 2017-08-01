@@ -1,0 +1,9 @@
+#!/bin/sh
+chown root:wheel /Library/LaunchDaemons/com.imokhles.ifileveloxdlaunch.plist
+chmod 644 /Library/LaunchDaemons/com.imokhles.ifileveloxdlaunch.plist
+
+chmod 4755 /usr/libexec/ifilevelox
+chown root:wheel /usr/libexec/ifilevelox
+
+launchctl load /Library/LaunchDaemons/com.imokhles.ifileveloxdlaunch.plist
+exit 0

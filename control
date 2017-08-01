@@ -1,0 +1,9 @@
+Package: com.imokhles.ifilevelox
+Name: iFileVelox
+Depends: mobilesubstrate, com.phillipt.velox
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: An awesome Velox plugin!
+Maintainer: iMokhes
+Author: iMokhes
+Section: Tweaks

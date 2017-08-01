@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!--This file defines the app this plugin is for, the name of your UIView subclass, and the information for the preference bundle,
+	which will be loaded into Velox's preferences rather than the root of the Settings app, so there's one, easy unified place 
+	to change the settings for Velox and it's plugins-->
+	
+	<!--This defines the bundle ID of the app which your custom view is for-->
+	<key>appIdentifier</key>
+	<string>eu.heinelt.ifile</string>
+	
+	<!--The class which should show up when Velox is invoked on your app. Make sure this class is loaded into SpringBoard-->
+	<key>veloxClass</key>
+	<string>iFileVelox</string>
+	
+	<!--Name of your preference bundle name. You will not normally need to configure this-->
+	<key>preferenceBundleName</key>
+	<string>iFileVelox.bundle</string>
+	
+	<!--Label of your extension which will show up in Velox setitngs-->
+	<key>preferenceBundleLabel</key>
+	<string>iFileVelox</string>
+	
+	<!--Icon for your extension to be used in Velox's settings panel. The standard icon to use is the application's icon.-->
+	<key>preferenceBundleIcon</key>
+	<string>iFileVelox.png</string>
+</dict>
+</plist>
